@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="350.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.RestantieriController">
+   <children>
+      <TableView fx:id="tabelRestantieri" editable="true" layoutX="29.0" layoutY="66.0" prefHeight="350.0" prefWidth="300.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="ap" prefWidth="37.0" text="Ap" />
+          <TableColumn fx:id="nume" prefWidth="110.0" text="Nume" />
+            <TableColumn fx:id="prenume" prefWidth="109.0" text="Prenume" />
+            <TableColumn fx:id="intretinere" prefWidth="65.0" text="Intretinere" />
+            <TableColumn fx:id="restante" prefWidth="78.0" text="Restante" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+   </children>
+</AnchorPane>
